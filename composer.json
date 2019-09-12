@@ -1,0 +1,32 @@
+{
+	"name": "zeokat/flarum-ext-zeotest",
+	"description": "Developing testing extension.",
+	"type": "flarum-extension",
+	"keywords": ["flarum","test","junk"],
+	"author": {
+		"name": "Zeokat"
+	},
+	"license": "MIT",
+	"require": {
+		"flarum/core": "^0.1.0-beta.8"
+	},
+	"autoload": {
+            "psr-4": {
+                "Zeokat\\AddScriptGA\\": "src/"
+            }
+        },
+	"support": {
+		"source": "https://github.com/Zeokat/flarum-ext-zeotest",
+		"issues": "https://github.com/Zeokat/flarum-ext-zeotest/issues"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Zeotest dev extension",
+			"icon": {
+				"name": "dev-zeoextension",
+				"backgroundColor": "#cc181e",
+				"color": "#fff"
+			}
+		}
+	}
+}
